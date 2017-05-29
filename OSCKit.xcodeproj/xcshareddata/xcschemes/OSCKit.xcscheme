@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "52469B9E19F5F0D500398381"
+               BuildableName = "OSCKitTests.xctest"
+               BlueprintName = "OSCKitTests"
+               ReferencedContainer = "container:OSCKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1F6B3AB41EDC314E00C493AF"
+            BuildableName = "OSCKit.framework"
+            BlueprintName = "OSCKit"
+            ReferencedContainer = "container:OSCKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
