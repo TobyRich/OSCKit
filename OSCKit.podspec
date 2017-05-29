@@ -1,10 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'OSCKit'
-  s.version = '0.3.5'
+  s.version = '0.3.6'
   s.summary = 'OSC protocol implementation.'
   s.homepage = 'https://github.com/256dpi/OSCKit'
   s.license = 'MIT'
-  s.author = { "Joël Gähwiler" => "joel.gaehwiler@gmail.com" }
+  s.authors = { "Joël Gähwiler" => "joel.gaehwiler@gmail.com",
+                "Prashant Vaibhav" => "prashant.vaibhav@tobyrich.com" }
   s.source = { git: 'https://github.com/256dpi/OSCKit.git', tag: s.version }
 
   s.ios.deployment_target = '6.0'

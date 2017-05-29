@@ -616,6 +616,7 @@
 				1F6B3ABC1EDC314E00C493AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52469B8F19F5F0D500398381 /* Build configuration list for PBXProject "OSCKit" */ = {
 			isa = XCConfigurationList;
