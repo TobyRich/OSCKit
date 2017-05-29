@@ -1,7 +1,10 @@
 platform :osx, '10.9'
 
 source 'https://github.com/CocoaPods/Specs.git'
-podspec
+
+target 'OSCKit' do
+  podspec
+end
 
 target 'OSCKitTests' do
   pod 'XCTAsyncTestCase', git: 'https://github.com/iheartradio/xctest-additions.git'
